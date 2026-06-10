@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.logo {
+  width: 150px;
+  height: 154px;
+}
+
+.logo-title {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.btn-login {
+    background-color: #ffff !important;
+    border-color: #784007 !important;
+}
+
+.logo-subtext {
+  color: #ffff !important;
+}
+
+::placeholder {
+    color: #ffff !important; /* apna color */
+    opacity: .5; /* important for full visibility */
+}
+
+.login-input {
+    caret-color: #fff; /* apna color */
+    color: #fff !important;
+}
+
+.content-wrapper {
+    background-image: url('/images/needle.jpg') !important; /* apni image path */
+    background-size: cover !important;       /* image ko full cover kare */
+    background-position: center !important;  /* center align */
+    background-repeat: no-repeat !important; /* repeat na ho */
+    background-attachment: fixed !important; /* optional (parallax feel) */
+}
+
+.row {
+  opacity: .87 !important;
+}
+
+.dropdown-item {
+  cursor: pointer;
+}

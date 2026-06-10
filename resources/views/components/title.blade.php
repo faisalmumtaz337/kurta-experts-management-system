@@ -1,0 +1,1 @@
+<title>{{ $title ?? 'Dashboard' }} | Kurta Experts</title>
